@@ -6,10 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Echo hello world"
-      - run: echo "Echo hello world"
-      - run: echo "Echo hello world"
-      - run: echo "Echo hello world"
-      - run: echo "Echo hello world"
-      - run: echo "Echo hello world"
-      - run: echo "Echo hello world"
+      - run: npm test
       - run: echo "Echo hello world"
