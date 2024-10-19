@@ -1,1 +1,15 @@
-
+name: Github Actions Demo
+run-name: ${{ github.actor }} is testing out github action
+on: [push]
+jobs:
+  Explore-Github-Actions:
+    run-on: ubuntu-latest
+    steps:
+      - run: echo "Echo hello world"
+      - run: echo "Echo hello world"
+      - run: echo "Echo hello world"
+      - run: echo "Echo hello world"
+      - run: echo "Echo hello world"
+      - run: echo "Echo hello world"
+      - run: echo "Echo hello world"
+      - run: echo "Echo hello world"
